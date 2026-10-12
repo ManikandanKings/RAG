@@ -117,3 +117,8 @@ print("Python Executable:", sys.executable)
 ```
 
 You should see your project's `.venv` Python executable.
+## command to add sentense transformer version
+uv add sentence-transformers
+
+## command to check sentense transformer version
+ uv pip show sentence-transformers

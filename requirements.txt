@@ -1,3 +1,5 @@
 chromadb
 jupyter
 ipykernel
+sentence-transformers
+numpy
