@@ -79,6 +79,7 @@ Install packages from the requirements file:
 
 ```powershell
 uv pip install -r requirements.txt
+uv add  -r requirements.txt
 ```
 
 > **Note:** `uv pip install -r requirements.txt` is the recommended approach for installing dependencies from a requirements file.
@@ -127,4 +128,9 @@ uv add sentence-transformers
  install Docker
  docker pull chromadb/chroma
  docker run -d -p 8000:8000 -v %cd%/chroma_db:/chroma/chroma chromadb/chroma
+ 
+ ## Quadrant UI 
+ docker pull qdrant/qdrant
+ docker run -d -p 6333:6333 -v %cd%/qdrant_storage:/qdrant/storage qdrant/qdrant
+ http://localhost:6333/dashboard#/collections
 
