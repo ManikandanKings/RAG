@@ -122,3 +122,9 @@ uv add sentence-transformers
 
 ## command to check sentense transformer version
  uv pip show sentence-transformers
+
+ ## Install chromadb server 
+ install Docker
+ docker pull chromadb/chroma
+ docker run -d -p 8000:8000 -v %cd%/chroma_db:/chroma/chroma chromadb/chroma
+
