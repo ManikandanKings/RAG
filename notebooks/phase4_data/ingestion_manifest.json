@@ -1,0 +1,8 @@
+{
+  "attention_is_all_you_need": {
+    "checksum": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+    "source_url": "https://arxiv.org/pdf/1706.03762",
+    "source_file": "attention_is_all_you_need.pdf",
+    "chunk_count": 59
+  }
+}

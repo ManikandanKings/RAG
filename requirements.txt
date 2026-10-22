@@ -4,3 +4,5 @@ ipykernel
 sentence-transformers
 numpy
 qdrant-client
+pypdf
+pdfplumber

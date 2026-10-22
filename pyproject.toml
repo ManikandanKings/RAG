@@ -9,6 +9,8 @@ dependencies = [
     "ipykernel>=7.4.0",
     "jupyter>=1.1.1",
     "numpy>=2.5.3",
+    "pdfplumber>=0.11.10",
+    "pypdf>=6.21.2",
     "qdrant-client>=1.19.1",
     "sentence-transformers>=6.1.0",
 ]

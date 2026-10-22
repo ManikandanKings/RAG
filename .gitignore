@@ -9,3 +9,5 @@ notebooks/qdrant_db/
 qdrant_storage/
 # Virtual environments
 .venv
+notebooks/phase4_data/attention_is_all_you_need.pdf
+uv.lock
